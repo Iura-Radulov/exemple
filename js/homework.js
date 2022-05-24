@@ -1,3 +1,7 @@
+const date = new Date();
+const timeEl = document.querySelector(".clock");
+timeEl.textContent = date.toLocaleTimeString();
+
 // function slugify(title) {
 //   // Change code below this line
 // // const string = title.split(" ").toLowerCase;
@@ -144,4 +148,40 @@
 // // console.log(atTheOldToad.addPotion({ name: "Dragon breath", price: 700 }));
 // // console.log(atTheOldToad.removePotion("Dragon breath")); 
 // atTheOldToad.updatePotionName('Dragon breath', 'Polymorth')
+
+
+// class StringBuilder {
+//     constructor(initialValue) {
+//         this.value = initialValue;
+//     }
+//     getValue() {
+//         return this.value;
+//     }
+//     padEnd(str) {        
+//         this.value += str;
+//     }
+//     padStart(str) {
+//         this.value = str + this.value;
+//     }
+//     padBoth(str) {
+//         this.value += str;
+//         this.value = str + this.value;
+// }
+// }
+
+// // Change code above this line
+// const builder = new StringBuilder(".");
+// console.log(builder.getValue()); // "."
+// builder.padStart("^");
+// console.log(builder.getValue()); // "^."
+// builder.padEnd("^");
+// console.log(builder.getValue()); // "^.^"
+// builder.padBoth("=");
+// console.log(builder.getValue()); // "=^.^="
+
+// // console.log(".".concat("^"));
+// // console.log('.'.split(""))
+
+
+
 
