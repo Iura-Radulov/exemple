@@ -183,5 +183,65 @@ timeEl.textContent = date.toLocaleTimeString();
 // // console.log('.'.split(""))
 
 
+// ------codewords------
+//------------ 1 ----------------
+// function howMuchILoveYou(nbPetals) {
+//     // your code
+//   if((nbPetals + 6) % 6 === 1) {
+//     console.log("I love you")
+//   } else if ((nbPetals + 6) % 6 === 2) {
+//     console.log("a little")
+//   } else if ((nbPetals + 6) % 6 === 3) {
+//     console.log("a lot")
+//   } else if ((nbPetals + 6) % 6 === 4) {
+//     console.log("passionately")
+//   } else if ((nbPetals + 6) % 6=== 5) {
+//     console.log("madly")
+//   } else if ((nbPetals) % 6 === 0) {
+//     console.log("not at all")
+//   } 
+// }
+
+// function howMuchILoveYou(nbPetals) {
+//   let petals = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
+//   return petals[(nbPetals-1) % 6];
+// }
+// howMuchILoveYou(7);
+// howMuchILoveYou(6);
+// howMuchILoveYou(258);
+
+//------------------- 2 -----------
+// function findOutlier(integers){
+ 
+//   const num = integers.filter(integer => integer % 2 === 0);
+//   console.log(num)
+//   if(num.length === 1) {
+//     const n = integers.find(integer => integer % 2 === 0);
+//     console.log(n)
+//     return n;
+//   };
+//   if(num.length > 1) {
+//     const n = integers.find(integer => integer % 2 === 1 || integer % 2 === -1);
+//     console.log(n)
+//     return n;
+//   }
+  
+//   //your code here
+// }
 
 
+// findOutlier([1, 2, 3])
+// findOutlier([2,6,8,10,3])
+
+// -------------  3 -----------------
+
+
+// function sumTwoSmallestNumbers(numbers) {  
+//   numbers.sort((a, b) => a - b);
+//   console.log(numbers[0] + numbers[1]);
+//   return numbers[0] + numbers[1];
+// };
+// sumTwoSmallestNumbers([5, 8, 12, 19, 22]);  //13
+// sumTwoSmallestNumbers([15, 28, 4, 2, 43]);   //6
+
+// 
